@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Whisper&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #100 ;
+    color: rgba(239, 241, 233, 0.841);
+    padding: 5%;
+    font-family: Comfortaa, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header, article, section{
+    min-height: 100vh;
+}
+
+
+h1{
+    font-size: 3rem;
+    color: bisque;
+    font-weight: 600;
+    text-align: right;
+}
+
+
+.intro{
+    line-height: 2.5;
+    font-size: 1.25rem;
+    text-align: right;
+    margin-bottom: 2.5rem;;
+}
+
+
+/* navigation*/
+ul{
+    list-style: none inside;
+    text-align: center;
+    line-height: 2.5;
+    font-size: 1.25rem;
+    padding: 5%;
+}
+
+/* archor -- link style*/
+a{
+    color:honeydew;
+}
+
+a:visited{
+    color:hsla(48, 100%, 93%, 0.367);
+}
+
+a:hover{
+    color: hsla(48, 100%, 93%, 0.876);
+}
+
+a:active{
+    color: burlywood;
+}
+
+
+/* small sections*/
+
+
+
+/* subheadings */
+h2{
+    font-size: 2rem;
+    text-align: right;
+    background-color: #000;
+    padding:0.8rem;
+    margin: 1rem;
+    
+}
+
+.sec_name{
+    position:sticky;
+    top:0;
+}
+
+
+/* content*/
+
+article p, section p{
+    text-align: justify;
+    line-height: 1.5;
+    padding: 2.5%;
+}
+
+
+
+/* technical skills*/
+.skills{
+    text-align: center;
+    line-height: 2;
+    padding:2.5%;
+    
+
+}
+
+dt {
+    font-size: 1.5rem;
+    text-indent: 4rem;
+    
+}
+
+dd{
+    text-indent: 6rem;
+}
+
+.home{
+    position: fixed;
+    top: 2.5%;
+    left:1.5%;
+    background-color: #000;
+    font-size: 1.25rem;
+}
