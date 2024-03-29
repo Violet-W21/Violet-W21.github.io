@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Whisper&display=swap');
 
+/* || initalise */
+
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
 }
+
+
+/* \\ Variables */
 
 body{
     background: #100 ;
