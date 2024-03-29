@@ -12,8 +12,17 @@
 
 /* \\ Variables */
 
+:root{
+    /* COLOR */
+    --BG_COLOR :#100;
+
+    /* Font*/
+    --FS : 2rem;
+    --Title_FS: 5rem;
+}
+
 body{
-    background: #100 ;
+    background:var(--BG_COLOR);
     color: rgba(239, 241, 233, 0.841);
     padding: 5%;
     font-family: Comfortaa, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -26,7 +35,7 @@ header, article, section{
 
 
 h1{
-    font-size: 3rem;
+    font-size: var(--Title_FS);
     color: bisque;
     font-weight: 600;
     text-align: right;
@@ -35,7 +44,7 @@ h1{
 
 .intro{
     line-height: 2.5;
-    font-size: 1.25rem;
+    font-size: var(--FS);
     text-align: right;
     margin-bottom: 2.5rem;;
 }
