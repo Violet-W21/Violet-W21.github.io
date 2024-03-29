@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Whisper&display=swap');
+
+/* || initalise */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/* \\ Variables */
+
+:root{
+    /* BASIC*/
+    --PADDING: 1rem;
+    --H2_MARGIN: 2rem;
+
+    /* COLOR */
+    --BG_COLOR :#100;
+    --COLOR:  bisque;
+
+    /* FONT*/
+    --FS: 1.25rem;
+    --H2_FS: 2rem;
+    --Title_FS: 5rem;
+   
+
+
+    
+}
+
+body{
+    background:var(--BG_COLOR);
+    color: rgba(239, 241, 233, 0.841);
+    padding: 5%;
+    font-family: Comfortaa, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 100vh;
+    font-size: var(--FS);
+}
+
+
+main{
+    padding: var(--PADDING);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(50px);
+    
+    grid-template-areas: 
+    "hc dv"
+    "hc_prj1 "
+
+    "ft ft";
+    text-align: center;
+
+}
+
+h2{
+    margin: 5rem;
+    font-size: var(--H2_FS);
+    color: var(--COLOR);
+}
+
+.Web{
+    min-height: 80vh;
+}
+
+.Web__h2{
+    grid-area: hc;   
+}
+
+
+.DataVisuals{
+    min-height: 80vh;
+}
+.DataVisuals__h2{
+    grid-area: dv;
+    
+}
+
+
+.Web__p{
+    grid-area: hc_prj1;
+}
+footer{
+    grid-area: ft;
+    text-align: center;
+}
