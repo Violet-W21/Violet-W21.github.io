@@ -83,6 +83,14 @@ h2{
 .Web__p{
     grid-area: hc_prj1;
 }
+
+.home{
+    position: fixed;
+    top: 2.5%;
+    left:1.5%;
+    background-color: #000;
+    font-size: 1.25rem;
+}
 footer{
     grid-area: ft;
     text-align: center;
